@@ -9,7 +9,7 @@ TARGET_COL = "high_tip"
 
 def load_model(model_path="models/rf_taxi_model.pkl"):
     """
-    Carga el modelo serializado desde disco.
+    Carga el modelo serializado.
     """
     return joblib.load(model_path)
 
